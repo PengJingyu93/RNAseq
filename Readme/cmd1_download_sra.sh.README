@@ -1,0 +1,3 @@
+python gener_cmd1_download_sra.py SRR_Acc_List.txt > cmd1_download_sra.sh
+#python 脚本.py SRR_Acc_List.txt > shell结果文件
+#生成用于批量下载原始数据的shell脚本

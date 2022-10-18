@@ -1,0 +1,41 @@
+python gener_cmd_align.py SRR_Acc_List_sample.txt ~/document/yeast_project/data/reference/yeast_ref ~/document/yeast_project/data/RNA_seq/ > cmd_align.sh
+#python gener_cmd_align.py SRR_Acc_List_sample.txt cau_pengjy/document/yeast_project/data/reference/yeast_ref cau_pengjy/document/yeast_project/data/RNA_seq > cmd_align.sh   
+#python 脚本.py Acc_List 参考基因组索引文件路径及前缀 fastq文件所在目录 > cmd_align.sh结果文件
+
+
+#bash>$ sh cmd_align.sh
+#17028551 reads; of these:
+#  17028551 (100.00%) were unpaired; of these:
+#      1847422 (10.85%) aligned 0 times
+#          14087891 (82.73%) aligned exactly 1 time
+#              1093238 (6.42%) aligned >1 times
+#              89.15% overall alignment rate
+#              [bam_sort_core] merging from 8 files...
+#              16542825 reads; of these:
+#                16542825 (100.00%) were unpaired; of these:
+#                    2215587 (13.39%) aligned 0 times
+#                        13304003 (80.42%) aligned exactly 1 time
+#                            1023235 (6.19%) aligned >1 times
+#                            86.61% overall alignment rate
+#                            [bam_sort_core] merging from 8 files...
+#                            16739897 reads; of these:
+#                              16739897 (100.00%) were unpaired; of these:
+#                                  2202552 (13.16%) aligned 0 times
+#                                      13280860 (79.34%) aligned exactly 1 time
+#                                          1256485 (7.51%) aligned >1 times
+#                                          86.84% overall alignment rate
+#                                          [bam_sort_core] merging from 8 files...
+#                                          16534790 reads; of these:
+#                                            16534790 (100.00%) were unpaired; of these:
+#                                                2416330 (14.61%) aligned 0 times
+#                                                    12927379 (78.18%) aligned exactly 1 time
+#                                                        1191081 (7.20%) aligned >1 times
+#                                                        85.39% overall alignment rate
+#                                                        [bam_sort_core] merging from 8 files...
+#                                                        15793246 reads; of these:
+#                                                          15793246 (100.00%) were unpaired; of these:
+#                                                              1863958 (11.80%) aligned 0 times
+#                                                                  12654353 (80.13%) aligned exactly 1 time
+#                                                                      1274935 (8.07%) aligned >1 times
+#                                                                      88.20% overall alignment rate
+#                                                                      [bam_sort_core] merging from 8 files...

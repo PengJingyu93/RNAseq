@@ -1,0 +1,10 @@
+fastq-dump SRR1916152
+fastqc SRR1916152.fastq
+fastq-dump SRR1916153
+fastqc SRR1916153.fastq
+fastq-dump SRR1916154
+fastqc SRR1916154.fastq
+fastq-dump SRR1916155
+fastqc SRR1916155.fastq
+fastq-dump SRR1916156
+fastqc SRR1916156.fastq
